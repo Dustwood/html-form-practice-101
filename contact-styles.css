@@ -1,0 +1,45 @@
+/* Default style is mobile */
+body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: ITC Garamond W01 Light,serif;
+    font-size: 24px;
+    background: #ededed;
+    margin-left: 24px;
+    margin-right: 24px;
+    align-items: center;
+    justify-items: center;
+    margin: 4px;
+}
+
+div {
+    padding: 4px;
+    border: 2px;
+    border-style: ridge;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+textarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    background-color: #800000;
+}
+
+/* Styles for bigger screens (Leaving blank because site is too simple to change much)*/
+@media (min-width: 768px)
